@@ -4,9 +4,9 @@ public class Control {
 	private TV tv;
 
 	
-	public void enlazar(TV televisor){
-		this.tv = televisor;
-		televisor.control = this;
+	public void enlazar(TV tele){
+		this.tv = tele;
+		tele.control = this;
 	}
 	
 	public void setTv(TV televisor) {
